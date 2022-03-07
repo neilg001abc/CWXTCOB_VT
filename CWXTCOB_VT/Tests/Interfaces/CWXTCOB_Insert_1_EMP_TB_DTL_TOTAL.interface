@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.3.v20220216-1435_153?>
+<!--Topaz for Total Test 20.9.3.v20220216-1435_153 Mar 4, 2022 1:48:05 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME.EMP_TB_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION.EMP_TB_REGION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE.EMP_TB_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE.EMP_TB_YRS_SERVICE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES.EMP_TB_WAGES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT.EMP_TB_OT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM.EMP_TB_COMM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL.EMP_TB_DTL_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

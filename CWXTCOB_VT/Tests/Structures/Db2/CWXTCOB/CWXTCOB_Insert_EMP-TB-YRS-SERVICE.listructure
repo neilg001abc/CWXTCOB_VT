@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.3.v20220216-1435_153?>
+<!--Topaz for Total Test 20.9.3.v20220216-1435_153 Mar 4, 2022 1:48:05 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+  <listructure:struct id="EMP_TB_YRS_SERVICE" name="EMP_TB_YRS_SERVICE">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">5</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">5</properties:property>
+    </properties:properties>
+    <listructure:number id="EMP_TB_YRS_SERVICE.EMP_TB_YRS_SERVICE" length="9" name="EMP_TB_YRS_SERVICE">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(9)V</properties:property>
+        <properties:property name="usage" type="string">computational-3</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">9</properties:property>
+        <properties:property name="integerDigits" type="number">9</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">packed</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+        <properties:property name="sqltype" type="number">484</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

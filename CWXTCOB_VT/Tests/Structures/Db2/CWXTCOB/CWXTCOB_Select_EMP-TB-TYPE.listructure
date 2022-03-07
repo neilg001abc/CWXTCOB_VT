@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.3.v20220216-1435_153?>
+<!--Topaz for Total Test 20.9.3.v20220216-1435_153 Mar 4, 2022 1:48:08 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/Db2/CWXTCOB/CWXTCOB_Select_EMP-TB-TYPE.listructure">
+  <listructure:struct id="EMP_TB_TYPE" name="EMP_TB_TYPE">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">1</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">1</properties:property>
+    </properties:properties>
+    <listructure:string id="EMP_TB_TYPE.EMP_TB_TYPE" length="1" name="EMP_TB_TYPE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(1)</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(1)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+        <properties:property name="sqltype" type="number">452</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

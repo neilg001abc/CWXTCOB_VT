@@ -13,6 +13,11 @@
 //EMPFILE DD DISP=SHR,DSN=HAUNXG0.APAC.TRAIN.CWXTDATA]]></Content>
       </Setup>
     </Component>
+    <Variable id="id" description="id">value</Variable>
+    <SQLSelect id="id1" description="EMP_COMM" maxRows="20">
+      <Statement>SELECT EMP_COMM, FROM EMP</Statement>
+      <Output name="EMP_COMM" />
+    </SQLSelect>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">

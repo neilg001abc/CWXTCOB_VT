@@ -14,10 +14,7 @@
       </Setup>
     </Component>
     <Variable id="id" description="id">value</Variable>
-    <SQLSelect id="id1" description="EMP_COMM" maxRows="20">
-      <Statement>SELECT EMP_COMM, FROM EMP</Statement>
-      <Output name="EMP_COMM" />
-    </SQLSelect>
+    <Log>test log write</Log>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">

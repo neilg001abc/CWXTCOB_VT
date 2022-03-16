@@ -16,7 +16,7 @@
     <Variable id="id" description="id">value</Variable>
     <Log>test log write</Log>
     <SQLSelect id="id1" description="select from emp" maxRows="20">
-      <Statement>SELECT TOTAL_COMM FROM EMP</Statement>
+      <Statement>SELECT TOTAL_COMM FROM FTS4QA.EMP</Statement>
       <Output name="TOTAL_COMM" />
     </SQLSelect>
   </Test>

@@ -15,6 +15,10 @@
     </Component>
     <Variable id="id" description="id">value</Variable>
     <Log>test log write</Log>
+    <SQLSelect id="id1" description="select from emp" maxRows="20">
+      <Statement>SELECT TOTAL_COMM FROM EMP</Statement>
+      <Output name="TOTAL_COMM" />
+    </SQLSelect>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">

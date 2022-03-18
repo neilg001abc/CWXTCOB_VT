@@ -20,9 +20,9 @@
       <Output name="EMP_COMM" />
       <Output name="EMP_TOTAL" />
     </SQLSelect>
-    <Verify name="Verify" haltExecution="true">
-      <Expected />
-      <Actual />
+    <Verify name="Verify" haltExecution="false" description="Verify row">
+      <Expected>25</Expected>
+      <Actual expression="id1.Row[0].RATE" />
     </Verify>
   </Test>
   <MetaData>

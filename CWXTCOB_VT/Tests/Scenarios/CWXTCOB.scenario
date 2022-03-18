@@ -20,6 +20,10 @@
       <Output name="EMP_COMM" />
       <Output name="EMP_TOTAL" />
     </SQLSelect>
+    <Verify name="Verify" haltExecution="true">
+      <Expected />
+      <Actual />
+    </Verify>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">
